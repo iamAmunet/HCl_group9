@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header style="height: 15px;">
+        <div class="navbar">
+            <div class="navbar-logo" style="width: 300px;">
+                <h6>
+                    <strong>THE ZAMBIAN MUSEUM</strong>
+                </h6>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About Us</a></li>
+                <li>
+                    <a href="../index.html#gallery" class="dropdown-toggle">Exhibits</a>
+                    <span class="dropdown-arrow">&#9662;</span>
+                    <ul class="dropdown-menu">
+                        <li><a href="../index.html#ancient">Ancient India</a></li>
+                        <li><a href="../index.html#europian">European History</a></li>
+                        <li><a href="../index.html#zambian_history">Zambian History</a></li>
+                    </ul>
+                </li>
+                <li><a style="color: #e6cbb8;" href="events.html">Events</a></li>
+                <li><a href="../index.html#contacts">Contact</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="events-main">
+        <!-- Hero Section is here Sucre but only has search bar -->
+        <section aria-label="Search" class="events-hero">
+            <div class="search-container">
+                <input type="search" placeholder="Search events..." class="search-input">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+        </section>
+
+        <!-- Events Cards Section is here Sucre -->
+        <section class="events-section">
+            <div class="events-container">
+                <!-- 1 -->
+                <div class="event-card">
+                    <img src="../images/event_images/africa.jpg" alt="Art Workshop" class="event-img">
+                    <div class="event-details">
+                        <h3>Traditional Art Workshop</h3>
+                        <div class="event-meta">
+                            <!-- Tuma icons, remove if you want same for every card -->
+                            <span><i class="far fa-calendar"></i> March 15, 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Main Gallery</span>
+                        </div>
+                        <p>Learn traditional Zambian art techniques from master artists...</p>
+                        <button class="book-btn">Reserve Spot</button>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="event-card">
+                    <img src="../images/event_images/woman.jpg" alt="History Lecture" class="event-img">
+                    <div class="event-details">
+                        <h3>History Lecture Series</h3>
+                        <div class="event-meta">
+                            <span><i class="far fa-calendar"></i> April 5, 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Auditorium</span>
+                        </div>
+                        <p>Renowned historians discuss Zambia's independence movement...</p>
+                        <button class="book-btn">Register Now</button>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="event-card">
+                    <img src="../images/event_images/cheerleading.jpg" alt="Children's Day" class="event-img">
+                    <div class="event-details">
+                        <h3>Children's Cultural Day</h3>
+                        <div class="event-meta">
+                            <span><i class="far fa-calendar"></i> May 1, 2024</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Outdoor Plaza</span>
+                        </div>
+                        <p>Interactive activities introducing Zambian culture to children...</p>
+                        <button class="book-btn">Book Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
