@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Page</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!-- OwlCarousel stylesheet -->
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="css/responsive.css" rel="stylesheet"/>
+<link href="css/style.scss" rel="stylesheet"/>
+</head>
+<style>
+    .detail-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.detail-box a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #e6cbb8; /* Adjust to fit your theme */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container_ub a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #5f5554; /* Adjust to fit your theme */
+    color: white;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.img-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background: #e6cbb8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.event-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.gallery-item {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.event-info {
+    padding: 10px;
+}
+
+.event-info h4 {
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.hero input{
+    margin: 5rem;
+}
+
+.contact_section, .footer_section {
+            padding: 40px 0;
+            background-color: #f8f9fa;
+        }
+        .contact-info p, .contact-info h4 {
+            margin-bottom: 10px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .footer_section {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer_section a {
+            color: #f8c471;
+            text-decoration: none;
+        }
+        .footer_section a:hover {
+            text-decoration: underline;
+        }
+
+
+</style>
+<body>
+    <header style="height: 15px;">
+        <div class="navbar">
+            <div class="navbar-logo" style=" width: 300px;">
+                <h5>
+                    <strong>THE ZAMBIAN MUSEUM</strong>
+                </h5>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">☰</div>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About Us</a>
+                </li>
+                <li>
+                    <a href="#gallery" class="dropdown-toggle">Exhibits</a>
+                        <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#ancient">Ancient India</a>
+                        </li>
+                        <li>
+                            <a href="#europian">Europian History</a>
+                        </li>
+                        <li>
+                            <a href="#zambian_history">Zambian History</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#events">Events</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQs</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+        <section class="hero mb-0">
+            <h2 style="color: white; top: 20%;"><strong>Welcome to the Zambia's No. 1 Museum.<br> Your whole history under one roof</strong></h2>
+            <input type="search" name="search" placeholder="     Search..." autocomplete="off">
+        </section>
+
+        <!-- fAQ Section -->
+        <section id="faq" class="container my-5">
+            <h2 class="text-center mb-4"><strong>Frequently Asked Questions (FAQs)</strong></h2>
+            <div class="panel-group" id="accordion">
+        
+                <!-- FAQ 1 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#faq1">
+                                What are the museum’s opening hours?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            The museum is open from 9:00 to 16:30, Everyday. We are closed on public holidays only.
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- FAQ 2 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#faq2">
+                                Is there an entrance fee?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Yes, Residents is K10 for adults, K5 for children, and for non-residents for adults $5 and children $3. Discounts are available for groups and schools.
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- FAQ 3 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#faq3">
+                                Do you offer guided tours?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Absolutely! We offer guided tours daily at 10:00 AM, 12:00 PM, and 3:00 PM. Please book in advance for group tours.
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- FAQ 4 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#faq4">
+                                Can I take photographs inside the museum?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Photography is allowed in most areas of the museum, but flash and tripods are not permitted. Certain exhibits may restrict photography.
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- FAQ 5 -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#faq5">
+                                Is the museum accessible for people with disabilities?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq5" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Yes, the museum is wheelchair accessible and we provide assistance for visitors with special needs. Please contact us in advance.
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        
+       
+    
+        <!-- Footer Section -->
+        <footer class="footer_section">
+            <div class="container text-center">
+                <p>&copy; 2025 The Zambian Museum. All Rights Reserved.</p>
+                <p>
+                    <a href="#">Privacy Policy</a> |
+                    <a href="#">Terms of Service</a>
+                </p>
+            </div>
+        </footer>
+    <!-- JavaScript files -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-- OwlCarousel initialization -->
+<script>
+$(document).ready(function () {
+$(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 2
+        },
+        1000: {
+            items: 3
+        }
+    }
+});
+});
+</script>
+</body>
+</html>
